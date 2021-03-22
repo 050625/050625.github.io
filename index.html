@@ -22,8 +22,19 @@
 			margin-right: auto;
 		}
 
-		body {
-			background-color: powderblue;
+
+
+		.bgimg {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			min-width: 1000px;
+			z-index: -10;
+			background: url(https://cdn.jsdelivr.net/gh/tidymoon/cdn@master/img/bg.jpg) no-repeat;
+			background-size: cover;
+			background-position: center 0;
 		}
 
 		a {
@@ -34,23 +45,25 @@
 </head>
 
 <body>
+	<div class="bgimg"></div>
 	<img src="https://cdn.jsdelivr.net/gh/050625/050625.github.io@master/img/headphoto.jpg"
 		class="headphoto"
 		alt="头像照片加载失败了，可能是jsdelivr的cdn抽风了，请联系bobo（29829889）tidymoon（github.com/tidymoon）">
 	<p class="text">Welcome to Bobo's website</p>
 	<p class="text">网站制作中！可以和我们一起 <a href="https://tidymoon.github.io/study/">学习</a> </p>
-	
+	<p class="text">友情链接： <a href="https://dinosaur040.github.io">dinosaur的个人网站</a> 丨 <a
+			href="https://cdn.jsdelivr.net/gh/tidymoon/cdn@master/img/tycj.jpg">你点我呀</a></p>
 	<script>
 		var _hmt = _hmt || [];
-		(function() {
- 		 var hm = document.createElement("script");
- 		 hm.src = "https://hm.baidu.com/hm.js?f3ca0e6641691efd24598f9031628a73";
- 		 var s = document.getElementsByTagName("script")[0]; 
- 		 s.parentNode.insertBefore(hm, s);
-	})();
+		(function () {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?f3ca0e6641691efd24598f9031628a73";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
 	</script>
 
-	
+
 </body>
 
 </html>
